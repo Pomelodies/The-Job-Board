@@ -18,6 +18,62 @@ const App = () => {
         country="Australie"
         city="Sydney"
       />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
     </main>
   );
 };
