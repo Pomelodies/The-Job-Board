@@ -3,77 +3,21 @@ import "./App.css";
 // import components
 import Title from "./components/Title";
 import Header from "./components/Header";
+import Jobs from "./components/Jobs";
+import Job from "./components/Job";
 
 const App = () => {
   return (
     <main>
       <Header name="The Job Board" />
-      {/* <jobs>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-        <job
-          className="className"
-          title="title"
-          contractType="contractType"
-          country="country"
-          city="city"
-        ></job>
-      </jobs>
-      <footer></footer> */}
+      <Jobs className="container" />
+      <Job
+        className="job-item"
+        title="Full Time Sales Associate - Sydney Boutique"
+        contractType="CDI"
+        country="Australie"
+        city="Sydney"
+      />
     </main>
   );
 };
